@@ -25,7 +25,8 @@ li img{
 	border-radius: 360px;
 }
 
-li a{
+a{
+	opacity: 0;
 	width: 150px;
 	height: 150px;
 	margin-right: 10px;
@@ -37,13 +38,11 @@ li a{
 	padding-top: 60px;
 	box-sizing: border-box;
 	font-size: 20px;
-	opacity: 0;
-	transition: oppacity 1s ,transform 1s;
+	transition: 1s;
 }
 
 
-li a:hover{
-	font-weight: bold;
+a:hover{
 	opacity: 0.8;
 	transform: rotate(360deg);
 }
