@@ -1,0 +1,26 @@
+JSON
+
+--jquery--
+$.ajax({
+	url : "url",
+	type : "get",
+	dataType : "json",
+	data : {
+	"property" = "value"
+	},
+	success: function(data){
+		alert('data') // parameter data json
+		let data = data.[] //masuk ke array dari object
+		// parameter data setiap di looping
+		$.each('data', function(i, d){
+			
+		}	
+	}
+})
+
+--Vanila Javascript--
+$getJSON('url berserta apikey dan valuenya', function){}
+
+--PHP--
+$menu = file_get_contents('url berserta apikey dan valuenya');
+$data = jscon_decode('menu',true) // true mengembalikan nilai array
