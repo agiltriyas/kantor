@@ -1,0 +1,35 @@
+.container{
+	text-align: center;
+}
+
+.container {
+	position: relative;
+	width: 600px;
+	height: 740px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	margin-top: 0;
+}
+
+.pic-mas{
+	width: 600px;
+	height: 340px;
+	border: 2px solid white;
+	box-sizing: border-box;
+}
+
+.pic-thumb{
+	margin-top: 0;
+	width: 200px;
+	height: 200px;
+	float: left;
+	border: 2px solid white;
+	box-sizing: border-box;
+}
+
+.op0{
+	opacity: 1;
+	transition: 1s;
+}
